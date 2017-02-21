@@ -1,0 +1,63 @@
+html, body{
+	background-color: rgb(95, 98, 102);
+	width: 100%;
+	font-family: calibri;
+	min-width: 500px;
+}
+nav {
+	background-color: rgb(163, 38, 16);
+	width: 50%;
+	margin-left: -10px;
+	margin-left: 25%;
+}
+ul{
+	padding: 10px;
+	font-size: 20px;
+	padding-left: 20px;
+	color: white;
+	list-style-type: none;
+}
+main{
+	margin-top: -20px;
+	width: 50%;
+	margin-left: 25%;
+	height: 700px;
+	background-color: white;
+}
+h1{
+	font-family: algerian;
+	font-size: 50px;
+	margin-left: 25%;
+	color: white;
+}
+li:hover, li:active {
+	cursor: pointer;
+	color: rgb(226, 206, 102);
+}
+li{
+	display: inline;
+	padding-left: 20px;
+}
+a{
+	text-decoration: none;
+	color: white
+}
+a:hover, a:active{
+	color: rgb(226, 206, 102);
+	transition: 1s;
+}
+p{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+p.form{
+	padding-left: 10px;
+	margin-bottom: 0px;
+}
+input{
+	margin-left: 10px;
+}
+h2{
+	margin-left: 10px;
+	margin-top: 10px;
+}
